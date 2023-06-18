@@ -1,13 +1,14 @@
 /* Common styles */
 
 .body{
- 
-    font-family:  "Roboto", "Raleway", sans-serif;
-   color: #2E2F42;
+     font-family:  "Roboto" sans-serif, "Raleway" sans-serif;
     list-style: none;
+    color: #434455;
+    background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: #FFFFFF;
           }
 /* Reset */
 ul, ol{
@@ -23,9 +24,9 @@ button{
      --primary-color:#2E2F42;
      --color:#4048BF;
      --color-button:#4D5AE5;
-     --secondarycolor:#434455;
+     --secondary-color:#434455;
      --color-white: #FFFFFF;
-   ;
+     --light-grey-color: #F4F4FD;
 }
 /* Header */
  
@@ -43,28 +44,36 @@ font-weight: 500;
 
 
 .logo{
-font-family: 'Raleway'; 
+font-family: "Raleway" sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 font-style: normal;
 }
-
+.logo-link{
+    text-decoration: none 
+}
 .logo-dark{
-    color: #2E2F42;
+    color: var(--primary-color);
 
 }
 
 .contacts{
 font-weight: 400;
 }
-
-.contacts-link{
-    color: #434455;
+.contacts-list_{
     font-style: normal;
+}
+.contacts-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color)
+    
    }
   
 .contacts-link:hover, :focus{
@@ -77,32 +86,36 @@ font-weight: 400;
 
 .section-hero{
  background: #2E2F42;
+ letter-spacing: 0.02em;
 }
 .hero-title{
     
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
      color: #FFFFFF;  
+
      }
 
 .hero-btn{
     color: #FFFFFF;
     background: #4D5AE5;
-    border-radius: 4px;
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .hero-btn:hover, :focus{
-color: 404BBF;
+background-color: 404BBF;
 }
 
 /* benefits */
 .benefits{
-   
+    font-weight: 500
 }
 .benefits-list{  
     list-style: none;
+
 }
 .benefits-item{
     color: 2E2F42;
@@ -116,7 +129,8 @@ color: 404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em
-    var(--secondarycolor)
+    var(--secondary-color)
+   
 }
 
 /* made */
@@ -127,6 +141,8 @@ color: 404BBF;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     }
 
 .made-list{
@@ -143,7 +159,9 @@ color: 404BBF;
 .team-title{
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    text-align: center;
+     text-transform: capitalize;}
 .team-list{
     font-weight: 500;
     font-size: 20px;
@@ -153,6 +171,12 @@ color: 404BBF;
     font-weight: 400;
     font-size: 16px;
       color: #434455;}
+.team-member{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 
 /* footer */
@@ -160,7 +184,7 @@ color: 404BBF;
     background-color: var(--primary-color);
 }
 .logo-light{
-    color: #FFFFFF;
+    color: #F4F4FD;
 }
 .footer-text{
 color: var(--color-white)
@@ -168,29 +192,60 @@ color: var(--color-white)
 
 
 /* Portfolio */
-.button{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
+.button-list{
+list-style: none; 
+
+
 background-color: #F4F4FD;
 color: #4D5AE5;   
 }
 .button-port-all{
-    color: #FFFFFF;
-
-}
-.portfolio-p{
-font-weight: 400;
+ color: #FFFFFF;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em
-var(--secondarycolor)
+letter-spacing: 0.04em;
+background-color: var(--light-grey-color)
+}
+.button-list-all:hover, :focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.button-item{
+    color: #FFFFFF;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: var(--light-grey-color)
 }
 
+.button-item:hover,:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.services-list{
+    list-style: none;}
+   
+.services-link{
+    text-decoration: none } 
+ .services-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em
+ var(--primary-color)
+}
+
+.services-item{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;  
+    color:var(--secondary-color)}
 
 
 
