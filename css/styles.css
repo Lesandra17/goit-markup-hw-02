@@ -1,7 +1,7 @@
 /* Common styles */
 
 .body{
-     font-family:  "Roboto" sans-serif, "Raleway" sans-serif;
+     font-family:  "Roboto", sans-serif;
     list-style: none;
     color: #434455;
     background-color: #FFFFFF;
@@ -33,36 +33,54 @@ button{
 
 .header{}
 
-.header-list{
-font-weight: 500;
-}
 
-
-.header-list :hover, :focus{
- color:#4048BF;
- }
  
-.logo-link{       
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
-font-style: none;
-font-family: "Raleway" sans-serif;
+.link{  
+    text-decoration: none;
+    font-style: none;
+}
+.logo-link{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
 }
 
 .logo-dark{
     color: var(--primary-color);
-
 }
+
+.list-header {
+    list-style: none;
+    font-style: none;
+        }
+.link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: var(--primary-color);
+}
+.list-header link{
+    text-decoration:none; 
+}
+    
+    .list-header link :hover, :focus{
+     color:#4048BF;
+     }
+
+
+
+
 
 .contacts{
 font-weight: 400;
 
 }
-.contacts-list_{
+.contacts list_{
     
 }
 .contacts-link{
@@ -114,7 +132,7 @@ background-color: 404BBF;
 .benefits{
     font-weight: 500
 }
-.benefits-list{  
+.benefits list{  
     list-style: none;
 
 }
@@ -146,7 +164,7 @@ background-color: 404BBF;
     text-transform: capitalize;
     }
 
-.made-list{
+.made list{
         list-style: none;      
 }
 
@@ -163,7 +181,7 @@ background-color: 404BBF;
     letter-spacing: 0.02em;
     text-align: center;
      text-transform: capitalize;}
-.team-list{
+.team list{
     font-weight: 500;
     font-size: 20px;
     list-style: none;
