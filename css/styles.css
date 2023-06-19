@@ -124,9 +124,7 @@ font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.hero-btn:hover, :focus{
-background-color: 404BBF;
-}
+
 
 /* benefits */
 .benefits{
@@ -242,11 +240,7 @@ letter-spacing: 0.04em;
 background-color: var(--light-grey-color)
 }
 
-.button-item:hover,:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
-    cursor: pointer;
-}
+
 .services-list{
     list-style: none;}
    
