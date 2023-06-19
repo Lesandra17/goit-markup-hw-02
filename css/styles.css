@@ -41,21 +41,18 @@ font-weight: 500;
 .header-list :hover, :focus{
  color:#4048BF;
  }
-
-
-.logo{
-font-family: "Raleway" sans-serif;
+ 
+.logo-link{       
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-font-style: normal;
+font-style: none;
+font-family: "Raleway" sans-serif;
 }
-.logo-link{
-    text-decoration: none 
-}
+
 .logo-dark{
     color: var(--primary-color);
 
@@ -63,16 +60,20 @@ font-style: normal;
 
 .contacts{
 font-weight: 400;
+
 }
 .contacts-list_{
-    font-style: normal;
+    
 }
 .contacts-link{
+    font-style: none;
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-color)
+
     
    }
   
