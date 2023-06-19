@@ -53,66 +53,56 @@ button{
     color: var(--primary-color);
 }
 
-.list-header {
-    list-style: none;
-    font-style: none;
-        }
-.link{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02;
-    color: var(--primary-color);
-}
+
+
 .list-header link{
+    list-style: none;
     text-decoration:none; 
 }
-    
-    .list-header link :hover, :focus{
-     color:#4048BF;
+    .list-header {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02;
+        color: var(--primary-color);
+    }
+    .link{
+        text-decoration:none
+    }
+     .list-header:hover:focus{
+        color: 404bbf;
      }
-
-
-
-
-
-.contacts{
-font-weight: 400;
-
+/* address */
+.contacts-list link{
+    font-style: normal;
+    list-style: none;
 }
-.contacts list_{
-    
-}
-.contacts-link{
-    font-style: none;
-    text-decoration: none;
-    font-weight: 500;
+.contacts-list{
+   font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-color)
+    letter-spacing: 0.02; 
+    color: var(--secondary-color);}
+.link:hover:focus{
+    color: 404bbf;
+    list-style: none;
+}
 
-    
-   }
-  
-.contacts-link:hover, :focus{
-    color: #404bbf;
-}   
   
 .main{}
 
 /* hero */
 
 .section-hero{
- background: #2E2F42;
- letter-spacing: 0.02em;
-}
+ background: var(--primary-color)
+ }
 .hero-title{
-    
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
      color: #FFFFFF;  
+     text-align: center;
+     letter-spacing: 0.02;
 
      }
 
@@ -121,32 +111,41 @@ font-weight: 400;
     background: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-
+.hero-btn:hover:focus{
+    background-color: #404BBF;
+    cursor: pointer;
+}
 
 /* benefits */
-.benefits{
-    font-weight: 500
-}
-.benefits list{  
+
+
+.benefits-list{  
     list-style: none;
+    font-weight: 500;
+    font-size: 20;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: var(--primary-color);
 
 }
 .benefits-item{
-    color: 2E2F42;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02;
+    color: var(--secondary-color);
      
 }
 .benefits-p{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em
-    var(--secondary-color)
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+ 
    
 }
 
@@ -160,9 +159,10 @@ font-weight: 400;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: var(--primary-color);
     }
 
-.made list{
+.made-list{
         list-style: none;      
 }
 
@@ -178,23 +178,40 @@ font-weight: 400;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-     text-transform: capitalize;}
-.team list{
-    font-weight: 500;
-    font-size: 20px;
-    list-style: none;
+    text-transform: capitalize;}
+    
+    
+
+    
+.team{
+    background-color: #F4F4FD;
+       }
+.team-title{
+    font-size: 36px;
+    line-height: 11;
+    text-align: center;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+      color: var(--primary-color)
+    }
+    .team-list{
+        list-style: none;
     }
 .team-item{
-    font-weight: 400;
-    font-size: 16px;
-      color: #434455;}
-.team-member{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--primary-color);
 }
+.team-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
 
+}
 
 /* footer */
 .footer{
@@ -204,48 +221,39 @@ font-weight: 400;
     color: #F4F4FD;
 }
 .footer-text{
+    letter-spacing: 0.02;
 color: var(--color-white)
+
 }
 
 
 /* Portfolio */
-.button-list{
-list-style: none; 
+.button-list button{
+list-style: none;}
 
 
-background-color: #F4F4FD;
-color: #4D5AE5;   
-}
-.button-port-all{
- color: #FFFFFF;
+.button{
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
+color: var(--color-button);
 background-color: var(--light-grey-color)
 }
-.button-list-all:hover, :focus{
+.button:hover:focus{
     color: #FFFFFF;
-    background-color: #404BBF;
+    background-color: 404bbf;
     cursor: pointer;
 }
-.button-item{
-    color: #FFFFFF;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-background-color: var(--light-grey-color)
-}
 
-
-.services-list{
-    list-style: none;}
    
-.services-link{
-    text-decoration: none } 
+.services-list{
+    list-style:none; 
+ } 
+ .services-link{
+    text-decoration: none;
+ }
  .services-title {
 font-weight: 500;
 font-size: 20px;
@@ -254,7 +262,7 @@ letter-spacing: 0.02em
  var(--primary-color)
 }
 
-.services-item{
+.services-p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;  
