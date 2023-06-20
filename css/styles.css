@@ -2,22 +2,11 @@
 
 .body{
      font-family:  "Roboto", sans-serif;
-    list-style: none;
-    color: #434455;
-    background-color: #FFFFFF;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+        color: #434455;
     background-color: #FFFFFF;
           }
-/* Reset */
-ul, ol{
-    list-style: none;
-}
-button{
-    font-family: inherit;
-    cursor: pointer;
-       }
+
+   .ol, ul{list-style: none;}       
 
 
 :root{
@@ -59,7 +48,7 @@ button{
     list-style: none;
     text-decoration:none; 
 }
-    .list-header {
+    .list-header{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -69,23 +58,27 @@ button{
     .link{
         text-decoration:none
     }
-     .list-header:hover:focus{
+     .link:hover:focus{
         color: 404bbf;
      }
 /* address */
-.contacts-list link{
-    font-style: normal;
+.contacts-list link-mail{
+    
     list-style: none;
 }
-.contacts-list{
+.link-mail{
+    font-style: normal;
    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02; 
-    color: var(--secondary-color);}
-.link:hover:focus{
-    color: 404bbf;
-    list-style: none;
+    color: var(--secondary-color)
+   }
+.link-mail:hover{
+   color: 404bbf;
+}
+.link-mail:focus{
+    color:404bbf;
 }
 
   
@@ -133,10 +126,12 @@ button{
 
 }
 .benefits-item{
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02;
-    color: var(--secondary-color);
+    color: var(--primary-color)
+    
      
 }
 .benefits-p{
@@ -188,7 +183,7 @@ button{
        }
 .team-title{
     font-size: 36px;
-    line-height: 11;
+    line-height:1.11;
     text-align: center;
     letter-spacing: 0.02;
     text-transform: capitalize;
@@ -203,6 +198,7 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    background-color: #FFFFFF;
 }
 .team-p{
     font-weight: 400;
@@ -222,13 +218,13 @@ button{
 }
 .footer-text{
     letter-spacing: 0.02;
-color: var(--color-white)
+color: var(--light-grey-color)
 
 }
 
 
 /* Portfolio */
-.button-list button{
+.nav-list button{
 list-style: none;}
 
 
