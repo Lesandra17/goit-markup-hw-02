@@ -57,6 +57,7 @@
     }
     .link{
         text-decoration:none;
+        
             }
 
     .link:hover:focus{
@@ -69,11 +70,13 @@
          font-style: normal;
 }
 .contacts-link{
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02; 
     color: var(--secondary-color)
+       
    }
 .contacts-linkl:hover:focus{
    color: 404bbf;
@@ -155,7 +158,9 @@
 .made list{
         list-style: none;      
 }
-
+.team-list{
+    color: #FFFFFF;
+}
 .made-img{}
 
 /* team */
@@ -212,6 +217,7 @@
     color: #F4F4FD;
 }
 .footer-text{
+    line-height: 1.5;
     letter-spacing: 0.02;
 color: var(--light-grey-color)
 
