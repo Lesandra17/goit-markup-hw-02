@@ -2,7 +2,7 @@
 
 .body{
      font-family:  "Roboto", sans-serif;
-        color: #434455;
+     color: #434455;
     background-color: #FFFFFF;
           }
 
@@ -44,11 +44,11 @@
 
 
 
-.list-header link{
+.list header-link{
     list-style: none;
     text-decoration:none; 
 }
-    .list-header{
+    .header-list{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -56,30 +56,29 @@
         color: var(--primary-color);
     }
     .link{
-        text-decoration:none
-    }
-     .link:hover:focus{
+        text-decoration:none;
+            }
+
+    .link:hover:focus{
         color: 404bbf;
      }
+
 /* address */
-.contacts-list link-mail{
-    
-    list-style: none;
+.list-contactst {
+        list-style: none;
+         font-style: normal;
 }
-.link-mail{
-    font-style: normal;
-   font-weight: 400;
+.contacts-link{
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02; 
     color: var(--secondary-color)
    }
-.link-mail:hover{
+.contacts-linkl:hover:focus{
    color: 404bbf;
 }
-.link-mail:focus{
-    color:404bbf;
-}
+
 
   
 .main{}
@@ -116,16 +115,12 @@
 /* benefits */
 
 
-.benefits-list{  
+.benefits list{  
     list-style: none;
-    font-weight: 500;
-    font-size: 20;
-    line-height: 1.2;
-    letter-spacing: 0.02;
-    color: var(--primary-color);
+    
 
 }
-.benefits-item{
+.benefits-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -157,7 +152,7 @@
     color: var(--primary-color);
     }
 
-.made-list{
+.made list{
         list-style: none;      
 }
 
@@ -189,7 +184,7 @@
     text-transform: capitalize;
       color: var(--primary-color)
     }
-    .team-list{
+    .team list{
         list-style: none;
     }
 .team-item{
@@ -224,7 +219,7 @@ color: var(--light-grey-color)
 
 
 /* Portfolio */
-.nav-list button{
+.nav list button{
 list-style: none;}
 
 
@@ -244,7 +239,7 @@ background-color: var(--light-grey-color)
 }
 
    
-.services-list{
+.services list{
     list-style:none; 
  } 
  .services-link{
