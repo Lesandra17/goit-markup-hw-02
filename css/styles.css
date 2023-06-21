@@ -8,9 +8,9 @@
 
    .ol, ul{list-style: none;}       
 .a{
-    text-decoration: none;
+    font-style: none;
     color: currentColor;
-    font-style: normal;
+   
     }
     .button{
         font-family: inherit;
@@ -31,58 +31,65 @@
 .header{}
 
 
- 
-.list-header link
-.link{  
-    text-decoration: none;
-    font-style: none;
-}
-.logo-link{
-    font-weight: 800;
+    
+.logo-link {
+    
+    
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    font-weight: 800;
+    color:  var(--color-button);
     font-family: "Raleway", sans-serif;
+   
+
 }
+.link{
+    text-decoration: none;}
 
 .logo-dark{
     color: var(--primary-color);
 }
     
+
+    .list{
+        list-style: none;
+    }
     .header-list{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02;
-        color: var(--primary-color); 
+        color: var(--primary-color); }
        
-        
-    }
-    .header-link{
-        text-decoration:none;
-        
-            }
+     .link{
+            text-decoration: none;
+         }
+    
+            
 
-    .header-list:hover:focus{
+    .header-list:hover,
+    .header-list:focus{
         color: 404bbf;
      }
 
 /* address */
-.list contacts-link {
-        list-style: none;
-                
-    }
-
-.contacts-link{
+           
+ .list-contacts link{
     font-style: normal;
-    font-weight: 400;
+ }
+
+.list-contacts{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02; 
-    color: var(--secondary-color)
-       
+    letter-spacing: 0.02;
+    color: var(--secondary-color);
+}
+
+.link{
+    text-decoration: none;
+    
    }
 .link-contacts:hover:focus{
    color: 404bbf;
