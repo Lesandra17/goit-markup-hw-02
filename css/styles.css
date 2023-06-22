@@ -53,37 +53,37 @@
 }
     
 
-    .list{
+    .list header-list{
         list-style: none;
     }
     .header-list{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
         color: var(--primary-color); }
        
      .link{
             text-decoration: none;
          }
-    
             
-
     .header-list:hover,
     .header-list:focus{
         color: 404bbf;
      }
 
 /* address */
-           
- .list-contacts link{
-    font-style: normal;
- }
-
 .list-contacts{
+   font-style: normal;
+}
+.list list-contacts{
+    list-style: none;
+}
+
+.link-contacts link{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
 
@@ -91,7 +91,8 @@
     text-decoration: none;
     
    }
-.link-contacts:hover:focus{
+.link:hover
+.link:focus{
    color: 404bbf;
 }
 
