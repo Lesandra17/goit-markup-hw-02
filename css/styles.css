@@ -80,7 +80,7 @@
     list-style: none;
 }
 
-.link-contacts link{
+.contacts-list{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -109,9 +109,9 @@
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-     color: #FFFFFF;  
-     text-align: center;
-     letter-spacing: 0.02;
+    color: #FFFFFF;  
+    text-align: center;
+    letter-spacing: 0.02em;
 
      }
 
@@ -124,7 +124,8 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.hero-btn:hover:focus{
+.hero-btn:hover,
+.hero-btn:focus{
     background-color: #404BBF;
     cursor: pointer;
 }
@@ -141,7 +142,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--primary-color)
     
      
@@ -199,13 +200,13 @@
     font-size: 36px;
     line-height:1.11;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
       color: var(--primary-color)
     }
     .team list{
         list-style: none;
-        background-color: #FFFFFF;
+        
     }
 .team-item{
     font-weight: 500;
@@ -231,7 +232,7 @@
 .logo-light{
     color: #F4F4FD;
 }
-.footer-p{
+.footer-text{
     letter-spacing: 0.02;
     line-height: 1.5;
     color: var(--light-grey-color)
