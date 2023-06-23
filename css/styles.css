@@ -179,29 +179,15 @@
 .made-img{}
 
 /* team */
-.list team-link{
-    background-color: #F4F4FD;
 
-}
-.team-title{
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;}
-    
-.team-list{
-   background-color: #FFFFFF; }   
-
-    
+   
 .list team-link{
-    background-color: #F4F4FD;
+background-color: #f4f4fd;
        }
 .team-title{
     font-size: 36px;
     line-height:1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
+     letter-spacing: 0.02em;
     text-transform: capitalize;
       color: var(--primary-color)
     }
