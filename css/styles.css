@@ -74,10 +74,10 @@
      }
 
 /* address */
-.list-contacts{
+.contacts{
    font-style: normal;
 }
-.list list-contacts{
+.list-contacts list{
  list-style: none;  
  
 }
@@ -93,9 +93,9 @@
     text-decoration: none;
     
    }
-.link:hover
-.link:focus{
-   color: #404bbf;
+.contacts-list:hover,
+.contacts-list:focus{
+ color: #404BBF;
 }
 
 
