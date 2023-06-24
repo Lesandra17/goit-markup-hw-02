@@ -74,10 +74,10 @@
      }
 
 /* address */
-.contacts{
+.mail contacts-list{
    font-style: normal;
 }
-.list-contacts list{
+.list contacts-list{
  list-style: none;  
  
 }
@@ -87,9 +87,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
+    font-style: normal;
 }
 
-.link{
+.contacts-list{
     text-decoration: none;
     
    }
