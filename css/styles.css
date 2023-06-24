@@ -3,15 +3,16 @@
 .body{
      font-family:  "Roboto", sans-serif;
      color: #434455;
-    background-color: #FFFFFF;
+   
           }
 
-   .ol, ul{list-style: none;}       
+   .ol, ul{
+    list-style: none;}    
+
 .a{
     font-style: none;
-    color: currentColor;
-   
-    }
+           }
+
     .button{
         font-family: inherit;
         cursor: pointer;
@@ -25,15 +26,11 @@
      --color-white: #FFFFFF;
      --light-grey-color: #F4F4FD;
 }
+
+
 /* Header */
- 
-
-.header{}
-
-
-    
+     
 .logo-link {
-    
     
     font-size: 18px;
     line-height: 1.17;
@@ -64,7 +61,7 @@
         color: var(--primary-color); }
        
      .link{
-            text-decoration: none;
+        text-decoration: none;
                      }
    
             
@@ -92,8 +89,8 @@
 
 .contacts-list{
     text-decoration: none;
-    
-   }
+}
+
 .contacts-list:hover,
 .contacts-list:focus{
  color: #404BBF;
@@ -101,12 +98,12 @@
 
 
   
-.main{}
+
 
 /* hero */
 
 .section-hero{
- background: var(--primary-color)
+ background: var(--primary-color);
  }
 .hero-title{
     font-weight: 700;
@@ -135,18 +132,16 @@
 
 /* benefits */
 
-
 .benefits list{  
     list-style: none;
-    
+    }
 
-}
 .benefits-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--primary-color)
+    color: var(--primary-color);
     
      
 }
@@ -173,24 +168,24 @@
     }
 
 .made list{
-        list-style: none;      
+    list-style: none;      
 }
 
 
-.made-img{}
+
 
 /* team */
-
    
-.list team-link{
-background-color: #f4f4fd;
+.team-link{
+background-color: #f4f4fd
        }
 .team-title{
     font-size: 36px;
     line-height:1.11;
-     letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
-      color: var(--primary-color)
+    color: var(--primary-color);
+    text-align: center;
     }
     .team list{
         list-style: none;
@@ -223,7 +218,7 @@ background-color: #f4f4fd;
 .footer-text{
     letter-spacing: 0.02em;
     line-height: 1.5;
-    color: var(--light-grey-color)
+    color: var(--light-grey-color);
 
 }
 
@@ -240,7 +235,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--color-button);
-background-color: var(--light-grey-color)
+background-color: var(--light-grey-color);
 }
 .list-button:hover,
 .list-button:focus{
