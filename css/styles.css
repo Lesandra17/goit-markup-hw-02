@@ -3,7 +3,7 @@
 .body{
      font-family:  "Roboto", sans-serif;
      color: #434455;
-   
+   background-color: var(--color-white);
           }
 
    .ol, ul{
@@ -186,11 +186,15 @@ background-color: #f4f4fd
     text-transform: capitalize;
     color: var(--primary-color);
     text-align: center;
+    
     }
     .team list{
         list-style: none;
-        
-    }
+            }
+
+.team-list{
+    background-color: #FFFFFF;
+}         
 .team-item{
     font-weight: 500;
     font-size: 20px;
