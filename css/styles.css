@@ -1,5 +1,5 @@
 /* Common styles */
-:root{
+:root {
      --primary-color:#2E2F42;
      --color:#4048BF;
      --color-button:#4D5AE5;
@@ -7,20 +7,20 @@
      --color-white: #FFFFFF;
      --light-grey-color: #F4F4FD;
 }
-body{
+body {
      font-family:  "Roboto", sans-serif;
      color: var(--secondary-color);
    background-color: var(--color-white);
           }
 
-   ol, ul{
+   ol, ul {
     list-style: none;}    
 
 a{
     font-style: none;
            }
 
-    button{
+    button {
         font-family: inherit;
         cursor: pointer;
     }
@@ -42,31 +42,31 @@ a{
    
 
 }
-.link{
+.link {
     text-decoration: none;}
 
-.logo-dark{
+.logo-dark {
     color: var(--primary-color);
 }
     
 
-    .list .header-list{
+    .list .header-list {
         list-style: none;
     }
-    .header-list{
+    .header-list {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--primary-color); }
        
-     .link{
+     .link {
         text-decoration: none;
                      }
    
             
     .link:hover,
-    .link:focus{
+    .link:focus {
         color: #404bbf; 
      }
 
@@ -74,12 +74,12 @@ a{
 .mail .contacts-list{
    font-style: normal;
 }
-.list .contacts-list{
+.list .contacts-list {
  list-style: none;  
  
 }
 
-.contacts-list{
+.contacts-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -87,22 +87,22 @@ a{
     font-style: normal;
 }
 
-.contacts-list{
+.contacts-list {
     text-decoration: none;
 }
 
 .contacts-list:hover,
-.contacts-list:focus{
+.contacts-list:focus {
  color: va#404bbf;
 }
 
 
 /* hero */
 
-.section-hero{
+.section-hero {
  background: var(--primary-color);
  }
-.hero-title{
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     color: var(--color-white);  
@@ -111,7 +111,7 @@ a{
 
      }
 
-.hero-btn{
+.hero-btn {
     color: var(--color-white);
     background:var(--color-button);
     font-family: "Roboto", sans-serif;
@@ -121,18 +121,18 @@ a{
     letter-spacing: 0.04em;
 }
 .hero-btn:hover,
-.hero-btn:focus{
+.hero-btn:focus {
     background-color: #404bbf;
     cursor: pointer;
 }
 
 /* benefits */
 
-.benefits .list{  
+.benefits .list {  
     list-style: none;
     }
 
-.benefits-title{
+.benefits-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -141,7 +141,7 @@ a{
     
      
 }
-.benefits-text{
+.benefits-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -152,7 +152,7 @@ a{
 
 /* made */
 
-.made-title{
+.made-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -161,7 +161,7 @@ a{
     color: var(--primary-color);
     }
 
-.made .list{
+.made .list {
     list-style: none;      
 }
 
@@ -170,10 +170,10 @@ a{
 
 /* team */
    
-.team-link{
+.team-link {
 background-color: var(--light-grey-color);
        }
-.team-title{
+.team-title {
     font-size: 36px;
     line-height:1.11;
     letter-spacing: 0.02em;
@@ -182,14 +182,14 @@ background-color: var(--light-grey-color);
     text-align: center;
     
     }
-    .team list{
+    .team list {
         list-style: none;
             }
 
-.team-list{
+.team-list {
     background-color: var(--color-white);
 }         
-.team-item{
+.team-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -197,7 +197,7 @@ background-color: var(--light-grey-color);
     color: var(--primary-color);
     background-color: var(--color-white);
 }
-.team-text{
+.team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -206,13 +206,13 @@ background-color: var(--light-grey-color);
 }
 
 /* footer */
-.footer{
+.footer {
     background-color: var(--primary-color);
 }
-.logo-light{
+.logo-light {
     color: var(--light-grey-color);
 }
-.footer-text{
+.footer-text {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--light-grey-color);
@@ -221,11 +221,11 @@ background-color: var(--light-grey-color);
 
 
 /* Portfolio */
-.list .list-button{
+.list .list-button {
 list-style: none;}
 
 
-.list-button{
+.list-button {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -237,17 +237,17 @@ background-color: var(--light-grey-color);
 
 
 .button:hover,
-.buttton:focus{
+.buttton:focus {
     color: #ffffff;
     background-color: #404bbf;
      cursor: pointer;
 }
 
    
-.list .services-link{
+.list .services-link {
     list-style:none; 
  } 
- .services-list{
+ .services-list {
     text-decoration: none;
  }
  .services-title {
@@ -259,7 +259,7 @@ color: var(--primary-color);
 
 
  }
-.services-text{
+.services-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;  
