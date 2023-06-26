@@ -67,7 +67,7 @@ a{
             
     .link:hover,
     .link:focus{
-        color:var(--color); 
+        color: #404bbf; 
      }
 
 /* address */
@@ -93,7 +93,7 @@ a{
 
 .contacts-list:hover,
 .contacts-list:focus{
- color: var(--color);
+ color: va#404bbf;
 }
 
 
