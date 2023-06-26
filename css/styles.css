@@ -237,7 +237,7 @@ background-color: var(--light-grey-color);
 
 
 .button:hover,
-.buttton:focus {
+.button:focus {
     color: #ffffff;
     background-color: #404bbf;
      cursor: pointer;
